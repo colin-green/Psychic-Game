@@ -5,8 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Psychic Guessing Game!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    
+<body onkeypress="getKey(event)">
+    <header>
+        <h1>Welcome to the Psychic Guessing Game!!!</h1>
+        <img src="assets/images/kk.png" alt="Crystal-Ball">
+    </header>
+    <hr>
+    <h2>Use the keyboard to try to guess which letter I'm thinking of!</h2>
+
+    <div id="winCount"></div>
+    <div id="lossCount"></div>
+    <div id="guessesLeft"></div>
+    <div id="guessesSoFar"></div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
 </body>
 </html>

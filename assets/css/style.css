@@ -1,0 +1,17 @@
+div {
+    font-size: 25px;
+    margin: 20px 0px 20px 0px;
+}
+
+img {
+    width: 200px;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background-color: lightpink;
+    text-align: center;
+}
